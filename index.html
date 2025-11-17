@@ -10,8 +10,6 @@
         <title>Spim</title>
 
         <style type="text/css">
-            @import url('https://fonts.cdnfonts.com/css/circe');
-            @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
             html {-webkit-text-size-adjust: none; -ms-text-size-adjust: none;}
 
             table, tr, td, h1, p, div, body {
@@ -34,69 +32,90 @@
             }
 
             @media screen and (max-width: 600px) {
-                .full-width {
-                    width: 100% !important;
-                    max-width: 100% !important;
-                }
-
-                .mobile-padding {
-                    padding-left: 10px !important;
-                    padding-right: 10px !important;
-                }
-
-                .mobile-col-padding {
-                    padding-left: 0px !important;
-                    padding-right: 0px !important;
-                }
-            }
-
-            @media screen and (max-width: 400px) {
-                br {
-                    display: none !important;
-                }
-                
-                .two-columns.mobile-padding {
-                    padding-left: 0 !important;
-                    padding-right: 0 !important;
-                }
-
-                .two-columns .column img {
-                    width: 100% !important;
-                    max-width: 100% !important;
-                }
+                .mobile-padding {padding-left: 10px !important; padding-right: 10px !important;}
+                .mobile-padding-top {padding-top: 30px !important;}
+                .mobile-padding-bottom {padding-bottom: 30px !important;}
+                br {display: none !important;}
+                .greeting-text br:first-child, .greeting-text br:nth-child(2) {display: block !important;} 
             }
         </style>
+        <!--[if mso]>
+            <style type="text/css">
+                table {
+                    border-collapse: collapse !important;
+                }
+            </style>
+        <![endif]-->
+
+        <!--[if mso]>
+            <xml>
+                <o:OfficeDocumentSettings>
+                    <o:AllowPNG />
+                    <o:PixelsPerInch>96</o:PixelsPerInch>
+                </o:OfficeDocumentSettings>
+            </xml>
+        <![endif]-->
     </head>
-    <body bgcolor="#e0e3e4" style="background-color:#e0e3e4; padding:40px 0 34px;">
+    <body bgcolor="#e0e3e4" style="background-color:#e0e3e4; padding:40px 0">
+        <!--[if mso]>
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+            <td>
+        <![endif]-->
         <table bgcolor="#e0e3e4" border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; background-color:#e0e3e4; width:100%;">
             <tbody>
                 <tr align="center">
                     <td>
-                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%; max-width:600px; background-color:#ffffff; box-shadow:0px 0px 4px 0px #00000026;">
+                        <!--[if mso]>
+                            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                            <td>
+                        <![endif]-->
+                        <table border="0" bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%; max-width:600px; background-color:#ffffff; box-shadow:0px 0px 4px 0px #00000026;">
                             <tbody>
                                 <tr>
                                     <td>
-                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" class="mobile-padding" style="margin:0; padding:0; width:100%; height:725px; background:url('./assets/banner.png') no-repeat; background-size:cover; background-position:center;">
+                                        <!--[if mso]>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <v:rect fill="true" stroke="false" style="width:600px; height:725px;">
+                                            <v:fill src="https://i.postimg.cc/1tGPhvZV/banner.png" type="frame"/>
+                                            <v:textbox inset="0,0,0,0">
+                                            <tr>
+                                            <td>
+                                        <![endif]-->
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" class="mobile-padding" style="margin:0; padding:0; width:100%; height:725px; background-color:#fbe9ec; background-image:url('https://i.postimg.cc/1tGPhvZV/banner.png'); background-repeat:no-repeat; background-size:cover; background-position:center;">
                                             <tbody>
                                                 <tr>
+                                                    <!-- Logo section -->
                                                     <td valign="top" align="center" style="padding-top:17px;">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0;">
                                                             <tbody>
                                                                 <tr align="center">
                                                                     <td>
                                                                         <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; padding-right:18px;">
-                                                                            <img src="./assets/spim-logo.png" alt="Логотип spim" border="0" width="77" height="39" style="display:inline-block; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <img src="https://i.postimg.cc/Y96kKdw1/spim-logo.png" alt="Логотип spim" border="0" width="77" height="39" style="display:inline-block; border:none; -ms-interpolation-mode:bicubic;"/>
                                                                         </a>
                                                                     </td>
                                                                     <td>
                                                                         <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; padding-left:18px;">
-                                                                            <img src="./assets/mebHome-logo.png" alt="Логотип mebHome" border="0" width="91" height="17" style="display:inline-block; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <img src="https://i.postimg.cc/fLcZn8h9/meb-Home-logo.png" alt="Логотип mebHome" border="0" width="91" height="17" style="display:inline-block; border:none; -ms-interpolation-mode:bicubic;"/>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
+                                                    <!-- End of logo section -->
                                                 </tr>
                                                 <tr valign="top">
                                                     <td align="center" style="padding-top:10px;">
@@ -113,19 +132,19 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td>
-                                                                                        <img src="./assets/watermelon-1.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
-                                                                                        <strong style="display:block; font-family:Circe; font-weight:800; font-size:40px; line-height:100%; text-align:center; text-transform:uppercase; color:#2e2e2e;">10%</strong>
-                                                                                        <span style="display:block; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; line-height:100%; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;19:00</span>
+                                                                                        <img src="https://i.postimg.cc/HxwHD6Ct/watermelon-1.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
+                                                                                        <div style="font-family:Circe, Arial, Helvetica, sans-serif; font-weight:800; font-size:40px; text-align:center; text-transform:uppercase; color:#2e2e2e;">10%</div>
+                                                                                        <div style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;19:00</div>
                                                                                     </td>
                                                                                     <td>
-                                                                                        <img src="./assets/watermelon-2.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
-                                                                                        <strong style="display:block; font-family:Circe; font-weight:800; font-size:40px; line-height:100%; text-align:center; text-transform:uppercase; color:#2e2e2e;">8%</strong>
-                                                                                        <span style="display:block; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; line-height:100%; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;22:00</span>
+                                                                                        <img src="https://i.postimg.cc/Ss6qFgpD/watermelon-2.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
+                                                                                        <div style="font-family:Circe, Arial, Helvetica, sans-serif; font-weight:800; font-size:40px; text-align:center; text-transform:uppercase; color:#2e2e2e;">8%</div>
+                                                                                        <div style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;22:00</div>
                                                                                     </td>
                                                                                     <td>
-                                                                                        <img src="./assets/watermelon-3.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
-                                                                                        <strong style="display:block; font-family:Circe; font-weight:800; font-size:40px; line-height:100%; text-align:center; text-transform:uppercase; color:#2e2e2e;">5%</strong>
-                                                                                        <span style="display:block; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; line-height:100%; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;00:00</span>
+                                                                                        <img src="https://i.postimg.cc/KzPFS0y0/watermelon-3.png" alt="Иконка долька арбуза" border="0" width="117" height="60" style="display:block; padding-bottom:5px; border:none; -ms-interpolation-mode:bicubic;">
+                                                                                        <div style="font-family:Circe, Arial, Helvetica, sans-serif; font-weight:800; font-size:40px; text-align:center; text-transform:uppercase; color:#2e2e2e;">5%</div>
+                                                                                        <div style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; text-align:center; text-transform:lowercase; color:#2e2e2e;">До&nbsp;00:00</div>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -134,16 +153,16 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <span style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; line-height:100%; text-transform:capitalize; color:#2e2e2e;">Промокод</span>
+                                                                        <div style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; line-height:100%; text-transform:capitalize; color:#2e2e2e;">Промокод</div>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td align="center">
-                                                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:8px 0 30px;">
+                                                                    <td align="center" style="padding:8px 0 30px;">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0;">
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td align="center" style="border:1px dashed rgba(0, 0, 0, 1); padding:11px 20px 7px;">
-                                                                                        <strong style="font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:28px; line-height:100%; text-align:center; text-transform:uppercase; color:#2e2e2e;">GOODBYELETO</strong>
+                                                                                        <div style="font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:28px; text-align:center; text-transform:uppercase; color:#2e2e2e;">GOODBYELETO</div>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -151,20 +170,29 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>
-                                                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
+                                                                    <td align="center">
+                                                                        <table border="0" width="247" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:247px; border-radius:50px; border-top:1px solid transparent; border-right:1px solid transparent; border-bottom:1px solid transparent; border-left:1px solid transparent;">
                                                                             <tbody>
                                                                                 <tr>
-                                                                                    <td align="center">
-                                                                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:247px; height:60px; background-color:#2abe80; border-radius:50px;">
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td align="center" style="vertical-align: middle;">
-                                                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="display:block; width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:20px; line-height:60px; text-align:center; color:#ffffff; text-decoration:none;">Получить скидку</a>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
+                                                                                    <td align="center" bgcolor="#2abe80" style="background-color:#2abe80;">
+                                                                                        <!-- Outlook button -->
+                                                                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+                                                                                            xmlns:w="urn:schemas-microsoft-com:office:word"
+                                                                                            href="#"
+                                                                                            style="height:60px; v-text-anchor:middle; width:247px;"
+                                                                                            arcsize="50%" stroke="f" fillcolor="#2abe80">
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:20px;">
+                                                                                                Получить скидку
+                                                                                            </center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]-->
+
+                                                                                        <!-- button -->
+                                                                                        <!--[if !mso]><!-->
+                                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; width:100%; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:20px; padding:18px 0; text-align:center; color:#ffffff; background-color:#2abe80;">Получить скидку</a>
+                                                                                        <!--<![endif]-->
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -177,10 +205,15 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <!--[if mso]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                        <![endif]-->
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="mobile-padding" style="padding:54px 50px 40px;">
+                                    <td class="mobile-padding greeting-text" style="padding:54px 50px 40px;">
                                         <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:18px; line-height:28px;">
                                             Здравствуйте!
                                             <br/><br/>
@@ -201,89 +234,161 @@
                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" class="mobile-padding" style="margin:0; padding:0; width:100%;">
                                             <tbody>
                                                 <tr align="center">
-                                                    <td width="100%" align="center" valign="top" style="display:inline-block; width:100%; margin:0 12.5px 69px;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/pillows.png" alt="Подушки" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; margin: 0 auto; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6; display: inline-block;">Подушки</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/k4Q93TdK/pillows.png" alt="Подушки" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; margin: 0 auto; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Одеяла</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
-                                                    <td width="100%" align="center" valign="top" style="display:inline-block; width:100%; margin:0 12.5px 69px;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/blankets.png" alt="Одеяла" border="0" width="150" height="113" style="display:inline-block; width:150px; height:113px; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6;">Одеяла</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/sXYydTRv/blankets.png" alt="Одеяла" border="0" width="150" height="113" style="display:inline-block; width:150px; height:113px; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Одеяла</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
-                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; margin:0 12.5px 69px;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/bedding.png" alt="Постельное бельё" border="0" width="150" height="113" style="display:inline-block;; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6;">Постельное бельё</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/j5HK0Mr5/bedding.png" alt="Постельное бельё" border="0" width="150" height="113" style="display:inline-block;; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Постельное бельё</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
-                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; margin:0 12.5px 69px;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/blankets-and-bedspreads.png" alt="Пледы и покрывала" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6;">Пледы и покрывала</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/ydmB4LzV/blankets-and-bedspreads.png" alt="Пледы и покрывала" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Пледы и покрывала</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
-                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; margin:0 12.5px 69px;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
                                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/bathroom.png" alt="Ванная" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6;">Ванная</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/TwVGMtXh/bathroom.png" alt="Ванная" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Ванная</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
-                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; margin:0 12.5px 69px;">
-                                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
+                                                    <td width="150" align="center" valign="top" style="display:inline-block; width:150px; padding:0 12.5px 69px;" class="mobile-padding-bottom">
+                                                        <!--[if mso]>
+                                                            <table width="150px" align="center" border="0" cellpadding="0" cellspacing="0" style="display:inline-block; width:150px;">
+                                                            <tr>
+                                                            <td>
+                                                        <![endif]-->
+                                                        <table border="0" width="150" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:150px;">
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
-                                                                            <img src="https://xxbatf0qpo6871xg.public.blob.vercel-storage.com/email-template-spim/kitchen.png" alt="Кухня" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
-                                                                            <span style="border-bottom:2px solid #476fc6;">Кухня</span>
+                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:700; font-size:16px; line-height:24px; text-align:center; text-decoration-offset:0%; text-decoration-thickness:0%; color:#476fc6;">
+                                                                            <img src="https://i.postimg.cc/4d6ZkWTc/kitchen.png" alt="Кухня" border="0" width="150" height="113" style="display:inline-block; padding-bottom:20px; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                                            <div>
+                                                                                <span style="border-bottom:2px solid #476fc6;">Кухня</span>
+                                                                            </div>
                                                                         </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                        <!--[if mso]>
+                                                            </td>
+                                                            </tr>
+                                                            </table>
+                                                        <![endif]-->
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -291,28 +396,29 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0; width:100%;">
-                                            <tbody>
-                                                <tr>
-                                                    <td align="center">
-                                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:184px; height:60px; background-color:#2abe80; border-radius:50px;">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td align="center" style="vertical-align:middle;">
-                                                                        <a href="#" target="_blank" rel="noopener noreferrer" style="display:block; width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:20px; line-height:60px; text-align:center; color:#ffffff; text-decoration:none;">В магазин</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                    <td align="center" class="mobile-padding-top">
+                                        <!-- Outlook button -->
+                                        <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+                                            xmlns:w="urn:schemas-microsoft-com:office:word"
+                                            href="#"
+                                            style="height:60px; v-text-anchor:middle; width:184px;"
+                                            arcsize="50%" stroke="f" fillcolor="#2abe80">
+                                            <w:anchorlock/>
+                                            <center style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:20px;">
+                                                В магазин
+                                            </center>
+                                        </v:roundrect>
+                                        <![endif]-->
+
+                                        <!-- button -->
+                                        <!--[if !mso]><!-->
+                                        <a href="#" target="_blank" style="display:inline-block; width:100%; max-width:184px; background-color:#2abe80; border-radius:50px; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:20px; line-height:60px; text-align:center; color:#ffffff; text-decoration:none;">В магазин</a>
+                                        <!--<![endif]-->
                                     </td>
-                                </tr>
+                                </tr> 
                                 <tr>
-                                    <td class="mobile-padding" style="padding:68px 50px 54px;">
+                                    <td class="mobile-padding" style="padding:68px 40px 54px;">
                                         <p style="margin:0; font-family: HelveticaNeueCyr; font-weight:400; font-size:14px; line-height:20px; text-align:center; color:#c4c4c4;">
                                             Промокод действует на&nbsp;все товары, кроме разделов &laquo;Кровати&raquo; и&nbsp;&laquo;Матрасы&raquo;. Cкидка не&nbsp;суммируется со&nbsp;скидками на&nbsp;сайте, скидками и&nbsp;подарками по&nbsp;другим промокодам и&nbsp;дисконтным картам. Размер скидки зависит от&nbsp;времени оформления заказа.
                                         </p>
@@ -320,9 +426,95 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!--[if mso]>
+                            </td>
+                            <td>
+                        <![endif]-->
+                        <table bgcolor="#e0e3e4" border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation" class="mobile-padding" style="margin:0; padding:36px 20px 0; background-color:#e0e3e4; width:100%; max-width:600px;">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <!--[if mso]>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                            <td>
+                                        <![endif]-->
+                                        <table bgcolor="#e0e3e4" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0;">
+                                            <tbody>
+                                                <tr align="center">
+                                                    <td style="display:inline-block; padding:0 30.5px 29px">
+                                                        <a href="#" target="_blank" rel="noopener noreferrer">
+                                                            <img width="245" height="25" src="https://i.postimg.cc/rm1cXfLW/socials.png" alt="Socials" style="display:inline-block; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                        </a>
+                                                    </td>
+                                                    <td style="display:inline-block; padding:0 30.5px 29px;">
+                                                        <a href="tel:88005556055" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:17px; line-height:27px; color:#2abe80;">8&nbsp;800&nbsp;555&nbsp;60&nbsp;55</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--[if mso]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                        <![endif]-->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom:25px;">
+                                        <p style="font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; text-align:center; color:#a3a3a3;">
+                                            Данное письмо было отправлено на&nbsp;hafizova.i@gmail.com. Пожалуйста, добавьте
+                                            mailer@spim.ru в&nbsp;вашу адресную книгу, чтобы наши письма не&nbsp;попадали в&nbsp;спам.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <!--[if mso]>
+                                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                            <td>
+                                        <![endif]-->
+                                        <table bgcolor="#e0e3e4" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0; padding:0;">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding-right:36px;">
+                                                        <a href="#" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; color:#a3a3a3;">
+                                                            <img width="14" height="14" src="https://i.postimg.cc/26QmR0f7/unsubscribe-icon.png" alt="" style="display:inline-block; vertical-align:text-top; border:none; -ms-interpolation-mode:bicubic;" />
+                                                            Отписаться
+                                                        </a>
+                                                    </td>
+                                                    <td style="padding-left:36px;">
+                                                        <a href="#" rel="noopener noreferrer" style="text-decoration:none; -webkit-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:14px; color:#a3a3a3;">
+                                                            <img width="14" height="14" src="https://i.postimg.cc/2yCYznzv/web-version-icon.png" alt="" style="display:inline-block; vertical-align:text-top; border:none; -ms-interpolation-mode:bicubic;"/>
+                                                            Веб-версия
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--[if mso]>
+                                            </td>
+                                            </tr>
+                                            </table>
+                                        <![endif]-->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                        <![endif]-->
                     </td>
                 </tr>
             </tbody>
         </table>
+        <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+        <![endif]-->
     </body>
 </html>
